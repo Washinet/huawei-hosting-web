@@ -1,0 +1,26 @@
+{
+    "users": [
+        {
+            "email": "wapa1999@gmail.com",
+            "password": "$2y$12$ZTjwWGQBDsHKmn935rIgCuj.2aIALu7xQIFP6u8ztOYaEhea8iGSG",
+            "nombre": "Administrador",
+            "rol": "admin",
+            "creado": "2026-02-11"
+        },
+        {
+            "email": "wpaul@asesoriatecnologica.cl",
+            "password": "$2y$10$Vsl0i6cm7xKkuKfoZkAGje6BFAsHTS5vwy2xxqTCNM\/hkXJKvLtZu",
+            "nombre": "washington",
+            "rol": "admin",
+            "creado": "2026-02-11"
+        }
+    ],
+    "password_rules": {
+        "min_length": 8,
+        "require_uppercase": true,
+        "require_lowercase": true,
+        "require_number": true,
+        "require_special": true,
+        "special_chars": ".@,#_"
+    }
+}

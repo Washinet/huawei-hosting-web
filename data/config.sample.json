@@ -1,0 +1,550 @@
+{
+    "sitio": {
+        "nombre": "HUAWEI HOSTING",
+        "nombre_corto": "HUAWEI",
+        "nombre_marca": "HOSTING",
+        "slogan": "Soluciones de Alojamiento Web de Alto Rendimiento",
+        "logo_icono": "fa-server",
+        "favicon": ""
+    },
+    "colores": {
+        "fondo_principal": "#000000",
+        "superficie": "#1a1a2e",
+        "superficie_clara": "#16213e",
+        "acento": "#c7000b",
+        "acento_hover": "#e5000d",
+        "texto_principal": "#ffffff",
+        "texto_secundario": "#cbd5e1",
+        "texto_muted": "#64748b",
+        "borde": "#334155"
+    },
+    "correo": {
+        "servidor": "smtp.gmail.com",
+        "puerto": "587",
+        "cuenta_envio": "wapa1999@gmail.com",
+        "password": "slmieemdknbebehj",
+        "cuenta_recepcion": "wpaul@asesoriatecnologica.cl",
+        "metodo": "smtp"
+    },
+    "empresa": {
+        "nombre": "Huawei Hosting",
+        "direccion": "Av. Tecnología 1234, Ciudad Empresarial.",
+        "telefono": "+56 (9) 1234-5678",
+        "email": "info@huaweihosting.com",
+        "horario": "Lun - Vie: 9:00 - 18:00",
+        "horario_extra": "Sáb: 9:00 - 13:00",
+        "whatsapp": "https://wa.me/56912345678"
+    },
+    "navegacion": {
+        "items": [
+            {
+                "texto": "Inicio",
+                "url": "index.php",
+                "icono": "fa-home"
+            },
+            {
+                "texto": "Hosting",
+                "url": "hosting.php",
+                "icono": "fa-server"
+            },
+            {
+                "texto": "Contacto",
+                "url": "contacto.php",
+                "icono": "fa-envelope"
+            }
+        ],
+        "cta_texto": "Comenzar",
+        "cta_url": "contacto.php"
+    },
+    "hero": {
+        "badge": "Tecnología Huawei Cloud",
+        "badge_icono": "fa-bolt",
+        "titulo": "Hosting de Alto Rendimiento",
+        "subtitulo": "Potencia tu presencia digital con servidores de última generación, rendimiento excepcional y soporte 24/7 respaldado por Huawei.",
+        "btn_primario_texto": "Ver Planes",
+        "btn_primario_url": "hosting.php",
+        "btn_primario_icono": "fa-rocket",
+        "btn_secundario_texto": "Contactar",
+        "btn_secundario_url": "contacto.php",
+        "btn_secundario_icono": "fa-headset",
+        "stats": [
+            {
+                "valor": "99.9%",
+                "etiqueta": "Uptime"
+            },
+            {
+                "valor": "+5K",
+                "etiqueta": "Clientes"
+            },
+            {
+                "valor": "24/7",
+                "etiqueta": "Soporte"
+            },
+            {
+                "valor": "<50ms",
+                "etiqueta": "Latencia"
+            }
+        ]
+    },
+    "servicios": {
+        "seccion_titulo": "Soluciones para cada necesidad digital",
+        "seccion_subtitulo": "Desde hosting compartido hasta servidores dedicados, ofrecemos la infraestructura ideal para tu proyecto.",
+        "seccion_badge": "Nuestros Servicios",
+        "items": [
+            {
+                "imagen": "assets/img/service-web.png",
+                "icono": "fa-globe",
+                "titulo": "Hosting Web",
+                "descripcion": "Alojamiento web rápido y seguro con cPanel, SSL gratuito y copias de seguridad automáticas."
+            },
+            {
+                "imagen": "assets/img/service-cloud.png",
+                "icono": "fa-cloud",
+                "titulo": "Hosting Cloud",
+                "descripcion": "Escalabilidad total con recursos dedicados en la nube de Huawei. Perfecto para proyectos en crecimiento."
+            },
+            {
+                "imagen": "assets/img/service-vps.png",
+                "icono": "fa-shield-alt",
+                "titulo": "Servidores VPS",
+                "descripcion": "Recursos dedicados con acceso root completo. Máximo control y rendimiento para tu servidor."
+            },
+            {
+                "imagen": "assets/img/service-domains.png",
+                "icono": "fa-link",
+                "titulo": "Dominios",
+                "descripcion": "Registra tu dominio ideal con extensiones .com, .net, .org y más. Gestión DNS completa."
+            }
+        ]
+    },
+    "precios": {
+        "seccion_titulo": "Elige tu plan ideal",
+        "seccion_subtitulo": "Planes flexibles que se adaptan a tu negocio. Sin sorpresas, sin costos ocultos.",
+        "seccion_badge": "Planes y Precios",
+        "planes": {
+            "basico": {
+                "nombre": "Básico",
+                "subtitulo": "Ideal para empezar",
+                "precio": "45.000",
+                "almacenamiento": "10 GB SSD",
+                "destacado": false,
+                "caracteristicas": [
+                    "10 GB SSD",
+                    "1 sitio web",
+                    "SSL gratuito",
+                    "100 GB transferencia",
+                    "1 cuenta email"
+                ],
+                "no_incluye": [
+                    "Backup automático",
+                    "Soporte prioritario"
+                ]
+            },
+            "profesional": {
+                "nombre": "Profesional",
+                "subtitulo": "Para negocios en crecimiento",
+                "precio": "85.000",
+                "almacenamiento": "50 GB SSD NVMe",
+                "destacado": true,
+                "caracteristicas": [
+                    "50 GB SSD NVMe",
+                    "10 sitios web",
+                    "SSL gratuito",
+                    "Transferencia ilimitada",
+                    "25 cuentas email",
+                    "Backup diario",
+                    "Soporte prioritario"
+                ],
+                "no_incluye": []
+            },
+            "enterprise": {
+                "nombre": "Enterprise",
+                "subtitulo": "Máximo rendimiento",
+                "precio": "150.000",
+                "almacenamiento": "200 GB SSD NVMe",
+                "destacado": false,
+                "caracteristicas": [
+                    "200 GB SSD NVMe",
+                    "Sitios ilimitados",
+                    "Wildcard SSL",
+                    "Transferencia ilimitada",
+                    "Email ilimitado",
+                    "Backup en tiempo real",
+                    "Soporte 24/7 dedicado"
+                ],
+                "no_incluye": []
+            }
+        }
+    },
+    "ventajas": {
+        "seccion_titulo": "La diferencia Huawei",
+        "seccion_badge": "¿Por Qué Elegirnos?",
+        "items": [
+            {
+                "icono": "fa-tachometer-alt",
+                "titulo": "Ultra Rápido",
+                "descripcion": "Servidores NVMe con procesadores de última generación para latencias menores a 50ms."
+            },
+            {
+                "icono": "fa-lock",
+                "titulo": "Seguridad Total",
+                "descripcion": "Protección DDoS, firewall avanzado, SSL gratuito y monitoreo 24/7."
+            },
+            {
+                "icono": "fa-headset",
+                "titulo": "Soporte Experto",
+                "descripcion": "Equipo técnico disponible 24/7 vía chat, teléfono y ticket."
+            },
+            {
+                "icono": "fa-expand-arrows-alt",
+                "titulo": "100% Escalable",
+                "descripcion": "Crece sin límites. Aumenta recursos al instante sin downtime."
+            },
+            {
+                "icono": "fa-sync-alt",
+                "titulo": "Backups Automáticos",
+                "descripcion": "Copias de seguridad diarias con restauración en un clic."
+            },
+            {
+                "icono": "fa-chart-line",
+                "titulo": "99.9% Uptime",
+                "descripcion": "Garantía de disponibilidad con infraestructura redundante."
+            }
+        ]
+    },
+    "cta": {
+        "titulo": "¿Listo para potenciar tu presencia digital?",
+        "subtitulo": "Únete a más de 5,000 empresas que confían en Huawei Hosting. Migración gratuita incluida.",
+        "btn_primario_texto": "Comenzar Ahora",
+        "btn_primario_url": "hosting.php",
+        "btn_secundario_texto": "Hablar con Ventas",
+        "btn_secundario_url": "contacto.php"
+    },
+    "contacto": {
+        "seccion_titulo": "Estamos aquí para ayudarte",
+        "seccion_subtitulo": "¿Tienes preguntas? Nuestro equipo de expertos está listo para asesorarte.",
+        "seccion_badge": "Contáctanos",
+        "form_titulo": "Envíanos un mensaje",
+        "form_subtitulo": "Completa el formulario y te responderemos en menos de 24 horas.",
+        "urgente_titulo": "¿Necesitas ayuda urgente?",
+        "urgente_subtitulo": "Nuestro soporte técnico está disponible 24/7",
+        "urgente_boton": "Llamar Ahora"
+    },
+    "hosting_page": {
+        "titulo": "Planes de Hosting",
+        "subtitulo": "Soluciones de alojamiento web para cada necesidad. Desde sitios personales hasta infraestructura empresarial.",
+        "badge": "Nuestros Planes",
+        "shared_titulo": "Hosting Compartido",
+        "shared_subtitulo": "Perfecto para sitios web personales y pequeños negocios.",
+        "shared_planes": [
+            {
+                "nombre": "Starter",
+                "precio": "$10.000",
+                "specs": [
+                    "10 GB SSD",
+                    "1 sitio",
+                    "100 GB transferencia",
+                    "1 email",
+                    "cPanel",
+                    "SSL gratis"
+                ]
+            },
+            {
+                "nombre": "Business",
+                "precio": "$9.99",
+                "specs": [
+                    "50 GB SSD NVMe",
+                    "5 sitios",
+                    "500 GB transferencia",
+                    "10 emails",
+                    "cPanel",
+                    "SSL gratis",
+                    "Backup semanal"
+                ]
+            },
+            {
+                "nombre": "Premium",
+                "precio": "$14.99",
+                "specs": [
+                    "100 GB SSD NVMe",
+                    "Sitios ilimitados",
+                    "Transferencia ilimitada",
+                    "Emails ilimitados",
+                    "cPanel",
+                    "SSL gratis",
+                    "Backup diario",
+                    "CDN incluido"
+                ]
+            }
+        ],
+        "cloud_titulo": "Hosting Cloud",
+        "cloud_subtitulo": "Escalabilidad y rendimiento para proyectos en crecimiento.",
+        "cloud_planes": [
+            {
+                "nombre": "Cloud Start",
+                "precio": "$19.99",
+                "specs": [
+                    "2 vCPU",
+                    "4 GB RAM",
+                    "50 GB SSD NVMe",
+                    "2 TB transferencia",
+                    "Panel cloud",
+                    "SSL gratis",
+                    "Backup diario"
+                ]
+            },
+            {
+                "nombre": "Cloud Pro",
+                "precio": "$39.99",
+                "specs": [
+                    "4 vCPU",
+                    "8 GB RAM",
+                    "100 GB SSD NVMe",
+                    "5 TB transferencia",
+                    "Panel cloud",
+                    "SSL gratis",
+                    "Backup diario",
+                    "IP dedicada"
+                ]
+            },
+            {
+                "nombre": "Cloud Enterprise",
+                "precio": "$79.99",
+                "specs": [
+                    "8 vCPU",
+                    "16 GB RAM",
+                    "250 GB SSD NVMe",
+                    "Transferencia ilimitada",
+                    "Panel cloud",
+                    "Wildcard SSL",
+                    "Backup tiempo real",
+                    "IP dedicada",
+                    "Soporte 24/7"
+                ]
+            }
+        ],
+        "vps_titulo": "Servidores VPS",
+        "vps_subtitulo": "Control total con recursos dedicados para aplicaciones exigentes.",
+        "vps_planes": [
+            {
+                "nombre": "VPS Basic",
+                "precio": "$24.99",
+                "specs": [
+                    "2 vCPU",
+                    "4 GB RAM",
+                    "80 GB SSD",
+                    "3 TB transferencia",
+                    "Root access",
+                    "1 IP",
+                    "KVM"
+                ]
+            },
+            {
+                "nombre": "VPS Power",
+                "precio": "$49.99",
+                "specs": [
+                    "4 vCPU",
+                    "8 GB RAM",
+                    "160 GB SSD",
+                    "5 TB transferencia",
+                    "Root access",
+                    "2 IPs",
+                    "KVM",
+                    "Snapshot"
+                ]
+            },
+            {
+                "nombre": "VPS Ultra",
+                "precio": "$99.99",
+                "specs": [
+                    "8 vCPU",
+                    "32 GB RAM",
+                    "320 GB SSD",
+                    "10 TB transferencia",
+                    "Root access",
+                    "3 IPs",
+                    "KVM",
+                    "Snapshot",
+                    "DDoS Pro"
+                ]
+            }
+        ],
+        "comparativa_titulo": "Comparativa de Planes",
+        "comparativa_subtitulo": "Compara las características principales de cada tipo de hosting.",
+        "comparativa": [
+            {
+                "caracteristica": "Recursos Dedicados",
+                "compartido": "✗",
+                "cloud": "✓",
+                "vps": "✓"
+            },
+            {
+                "caracteristica": "Escalabilidad",
+                "compartido": "Limitada",
+                "cloud": "Alta",
+                "vps": "Media"
+            },
+            {
+                "caracteristica": "Acceso Root",
+                "compartido": "✗",
+                "cloud": "Opcional",
+                "vps": "✓"
+            },
+            {
+                "caracteristica": "cPanel",
+                "compartido": "✓",
+                "cloud": "Panel Cloud",
+                "vps": "Opcional"
+            },
+            {
+                "caracteristica": "SSL Gratuito",
+                "compartido": "✓",
+                "cloud": "✓",
+                "vps": "✓"
+            },
+            {
+                "caracteristica": "Backup",
+                "compartido": "Semanal",
+                "cloud": "Diario",
+                "vps": "Snapshot"
+            },
+            {
+                "caracteristica": "Soporte",
+                "compartido": "Email",
+                "cloud": "Prioritario",
+                "vps": "24/7 Dedicado"
+            },
+            {
+                "caracteristica": "Desde",
+                "compartido": "$4.99/mes",
+                "cloud": "$19.99/mes",
+                "vps": "$24.99/mes"
+            }
+        ],
+        "faq_titulo": "Preguntas Frecuentes",
+        "faqs": [
+            {
+                "pregunta": "¿Qué incluye el SSL gratuito?",
+                "respuesta": "Todos nuestros planes incluyen certificado SSL Let's Encrypt con renovación automática, protegiendo la conexión entre tu sitio y los visitantes."
+            },
+            {
+                "pregunta": "¿Puedo migrar mi sitio web actual?",
+                "respuesta": "Sí, ofrecemos migración gratuita. Nuestro equipo técnico se encarga de transferir todos tus archivos, bases de datos y configuraciones sin downtime."
+            },
+            {
+                "pregunta": "¿Qué es el uptime del 99.9%?",
+                "respuesta": "Garantizamos que tu sitio estará disponible el 99.9% del tiempo. En caso de no cumplir, ofrecemos créditos en tu cuenta."
+            },
+            {
+                "pregunta": "¿Cómo funciona el soporte técnico?",
+                "respuesta": "Contamos con soporte 24/7 vía chat en vivo, tickets y teléfono. El tiempo de respuesta promedio es menor a 15 minutos."
+            },
+            {
+                "pregunta": "¿Puedo escalar mi plan en cualquier momento?",
+                "respuesta": "Sí, puedes cambiar de plan en cualquier momento desde tu panel de control. Los cambios se aplican inmediatamente sin perder datos."
+            }
+        ]
+    },
+    "footer": {
+        "descripcion": "Soluciones de alojamiento web de alto rendimiento respaldadas por la tecnología e infraestructura de Huawei Cloud.",
+        "enlaces_rapidos_titulo": "Enlaces Rápidos",
+        "servicios_titulo": "Servicios",
+        "contacto_titulo": "Contacto",
+        "privacidad_texto": "Política de Privacidad",
+        "terminos_texto": "Términos de Servicio"
+    },
+    "redes_sociales": {
+        "facebook": "https://facebook.com/huaweihosting",
+        "instagram": "https://instagram.com/huaweihosting",
+        "twitter": "https://twitter.com/huaweihosting",
+        "linkedin": "https://linkedin.com/company/huaweihosting"
+    },
+    "configurador": {
+        "precios_base": {
+            "cpu_core": 50000,
+            "ram_gb": 30000,
+            "disco_gb": 10000,
+            "ssd_nvme_extra": 20000
+        },
+        "opciones": {
+            "sistemas_operativos": [
+                {
+                    "id": "ubuntu-22",
+                    "nombre": "Ubuntu 22.04 LTS",
+                    "precio": 0
+                },
+                {
+                    "id": "centos-9",
+                    "nombre": "CentOS Stream 9",
+                    "precio": 0
+                },
+                {
+                    "id": "debian-12",
+                    "nombre": "Debian 12",
+                    "precio": 0
+                },
+                {
+                    "id": "windows-2022",
+                    "nombre": "Windows Server 2022",
+                    "precio": 15000
+                }
+            ],
+            "bases_datos": [
+                {
+                    "id": "mysql-8",
+                    "nombre": "MySQL 8.0",
+                    "precio": 10000
+                },
+                {
+                    "id": "postgres-15",
+                    "nombre": "PostgreSQL 15",
+                    "precio": 10000
+                },
+                {
+                    "id": "mongodb-6",
+                    "nombre": "MongoDB 6.0",
+                    "precio": 20000
+                },
+                {
+                    "id": "redis-7",
+                    "nombre": "Redis 7.0",
+                    "precio": 30000
+                }
+            ],
+            "respaldos": [
+                {
+                    "id": "ninguno",
+                    "nombre": "Sin Respaldo",
+                    "precio": 0
+                },
+                {
+                    "id": "diario",
+                    "nombre": "Diario",
+                    "precio": 15000
+                },
+                {
+                    "id": "semanal",
+                    "nombre": "Semanal",
+                    "precio": 12000
+                }
+            ],
+            "soporte": [
+                {
+                    "id": "basico",
+                    "nombre": "Soporte Básico (Email)",
+                    "precio": 0
+                },
+                {
+                    "id": "pro",
+                    "nombre": "Soporte Pro (24/7 Chat)",
+                    "precio": 100000
+                },
+                {
+                    "id": "enterprise",
+                    "nombre": "Gerente Dedicado",
+                    "precio": 250000
+                }
+            ]
+        }
+    }
+}
